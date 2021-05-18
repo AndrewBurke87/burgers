@@ -22,6 +22,16 @@
                 </div>
                 {{/unless}}
                 {{/each}}
+                {{!-- <ol>
+                    {{#each burgers}}
+                    {{#unless eaten}}
+                    <li>
+                        {{name}} <button class="changeEaten btn-sm bg-dark text-white" data-id="{{id}}"
+                            data-newEat="{{eaten}}" type="submit">Eat It!</button>
+                    </li>
+                    {{/unless}}
+                    {{/each}}
+                </ol> --}}
             </div>
         </div>
         <div class="col-md-6 text-center" class="task">
@@ -37,7 +47,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center enter_section">
-            <form action="/burgers/create" method="POST">
+            <form action="/api/burgers" method="POST">
                 <input type="text" class="form-control" name="burger_name" value="" id="enter_text">
                 <button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
             </form>
