@@ -7,8 +7,8 @@ const connection = mysql.createConnection({
     username: 'pfd7gddsa834eh1q',
     user: 'root',
     // NOTE: Be sure to add your MySQL password here!
-    password: 'bnw44h9nt8utavh9! || Cubbies87!',
-    database: 'h2qnv47t7x7jptdm',
+    password: 'bnw44h9nt8utavh9!' || 'Cubbies87!',
+    database: 'h2qnv47t7x7jptdm' || 'burger_db',
     dialect: "mysql",
 });
 
