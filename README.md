@@ -2,7 +2,7 @@
 
 Github Repository: https://github.com/AndrewBurke87/burgers
 
-Heroku: https://dashboard.heroku.com/apps/ajb-eat-da-burgers
+Heroku: https://ajb-eat-da-burgers.herokuapp.com/burgers
 
 # Table of Contents
 
